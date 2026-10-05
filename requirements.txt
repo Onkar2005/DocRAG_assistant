@@ -1,0 +1,12 @@
+streamlit>=1.35
+pypdf>=4.0
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+numpy>=1.26
+python-dotenv>=1.0
+
+# LLM backends (install only the one you use)
+anthropic>=0.40      # option 1: Claude API
+openai>=1.40         # option 2: OpenAI API
+transformers>=4.40   # option 3: free local model (no API key)
+torch>=2.2
